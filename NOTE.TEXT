@@ -8,9 +8,9 @@ A container for some content or other Html tags
 
 with the help of html create a different format for different types of devices like desktop, mobile, tablet etc.
 
-<p>this this paragarph</p>4
+<!-- <p>this this paragarph</p>4
 
-<p></p> ise element bolte hai
+<p></p> ise element bolte hai -->
 
 this is paragraph ko content bolte hai
 
@@ -32,7 +32,7 @@ key points
 >>most of html elements have opening and closing tags 
   with content in beteween them
 
- >> SOME TAGS HAVE NO CONTENT IN BETWEEN , EX - <br>
+ <!-- >> SOME TAGS HAVE NO CONTENT IN BETWEEN , EX - <br> -->
 
  >>we can use inspect element /view page source to edit
 
@@ -125,6 +125,15 @@ Used to display a horizontal ruler , used to separate content
 
     used to diplay text as it is (without ignoring spaces and next line)
 
-    <pre>This is a preformatted text.
-    It preserves spaces and line breaks.</pre>
+    <!-- <pre>This is a preformatted text.
+    It preserves spaces and line breaks.</pre> -->
+
+page layout techniques
+
+using semantic tags for layout
+
+using right tags for right purpose
+
+<!-- <header> , <nav> , <main> , <footer> etc. -->
+
 
