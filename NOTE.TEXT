@@ -136,4 +136,154 @@ using right tags for right purpose
 
 <!-- <header> , <nav> , <main> , <footer> etc. -->
 
+Inside main tags
 
+Section tag for a section on your page
+<section>
+
+Article tag  for an article on your page
+<article>
+
+Aside tag for content aside main content(ads)
+<aside>
+
+Revisiting Anchor tag
+
+<a href = " https://google.com"target="_main">Google</a>
+                                 |
+                                 for new tab
+
+<a href = " https://google.com"><img src="link"></a>
+                                   |
+                                   clickable pic
+
+
+Revisiting image tag
+
+<img src = "link" height=30px>
+                    |
+                    set height
+
+<img src="link" width=40px>
+                  |
+                  set width
+
+Div tag
+
+div is container used for other html elements
+
+Block element (takes full width)
+
+list : block tags
+
+<ol>, <li>, <table>, <section>, <article>, <aside>, <nav>, <header>,
+ <footer>, <main>, <form>, <blockquote>, <hr>, <pre>, <address>, <fieldset>,
+  <figure>, <figcaption>, <dd>, <dt>, <dl>, <noscript>, <canvas>, and <video>.
+
+  Span tag
+
+  span is also a container used for other HTML elements
+  Inline element (takes width as per size)
+
+List of Inline elements
+
+<a><abbr><acronym><b><bdo><big><br><button><cite>
+<code><dfn><em><i><img><input><kbd><label><map><object>
+<output><q><samp><script><select><small><span><strong><sub><sup>
+<textarea><time><tt><var>
+
+ list in Html 
+
+ list are used to represent real life data
+    
+      unordered              ordered
+      <ul>                   <ol>
+      <li>apple</li>          <li>apple</li>
+      <li>mango</li>          <li>Mango</li>
+      </ul>                   </ol>
+
+
+Table in html
+
+Table are used to represent real life table data .
+
+<tr>  used to display table row
+<td>  used to diplay table data 
+<th>  used to display table header
+
+<table>
+   <tr>
+       <th> Name </th>
+       <th> Roll No </th>
+  </tr>
+
+  <tr>
+     <td> Shradha </td>
+     <td> 1664 </td>
+  <tr>
+
+</table>
+
+Caption in table
+
+<caption> Student Data </caption>
+
+thead & tbody in tables
+
+<thead> to wrap table head
+
+<tbody> to wrap table body
+
+Colspan ia used center the heading in 
+two row or more just enter how many row 
+
+Form in html 
+
+Forms are used to collect data from the user
+Eg - sign up / login / help requests / contact me
+
+<form>
+
+form content 
+
+</form>
+
+Action in form
+
+Action attribute is used to define what action 
+needs to be performed when a form is submitted
+
+form Element : input
+
+<input type = "text" placeholder = "Enter Name">
+
+Label
+
+<label for = "id1">
+    <input type = "radio" value="classX" name="class" id="id1">
+</label
+<label for = "id2">
+    <input type = "radio" value="classX" name="class" id="id2">
+</label
+
+Select 
+
+<select name = " city " id = "city">
+     
+       <option value= " Delhi"> Delhi </option>
+       <option value= " Delhi"> Delhi </option>
+       <option value= " Delhi"> Delhi </option>
+</select>       
+
+iframe tag
+
+website inside website
+
+<iframe src="link">
+
+video tag
+
+<video src="myVid.mp4">My video </video>
+
+Attributes
+controls  , height, width , loop, autoplay
